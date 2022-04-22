@@ -37,15 +37,24 @@ body {
 }
 
 a:link {
-    color: orange;
-    text-decoration: underline;
+    color: rgb(253,151,45);
     font-weight: bold;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: orange;
+    color: rgb(253,151,45);
+    font-weight: bold;
     text-decoration: underline;
 }
+
+hr {
+    height: 2px;
+    background-color: rgb(253,151,45);
+    border: none;
+    margin-top: 20px;
+}
+
 #summary {
     text-align: left;
 }

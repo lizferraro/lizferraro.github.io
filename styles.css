@@ -1,6 +1,6 @@
 header {
     background-color: steelblue;
-    color: white;
+    color: White;
     text-align: center;
     margin-top: 50px;
 }
@@ -37,14 +37,21 @@ body {
 }
 
 a:link {
-    color: orange;
+    color: rgb(253,151,45);
     text-decoration: underline;
     font-weight: bold;
 }
 
 a:visited {
-    color: orange;
+    color: rgb(253,151,45);
     text-decoration: underline;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(253,151,45);
+    border: none;
+    margin-top: 20px;
 }
 
 #about-me {
