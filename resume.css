@@ -46,8 +46,7 @@ a:visited {
     color: orange;
     text-decoration: underline;
 }
-
-#about-me {
+#summary {
     text-align: left;
 }
 
@@ -56,6 +55,18 @@ a:visited {
 }
 
 #projects {
+    text-align: left;
+}
+
+#experience {
+    text-align: left;
+}
+
+#education {
+    text-align: left;
+}
+
+#personal {
     text-align: left;
 }
 
