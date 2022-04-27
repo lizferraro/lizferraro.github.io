@@ -1,6 +1,7 @@
 html {
     background-color: steelblue;
     color: white;
+    font-size: 1.25em; /* 20x on most screens */
 }
 
 header {
