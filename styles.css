@@ -9,28 +9,6 @@ body {
     text-align: center;
 }
 
-header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120px;
-    background-color: white;
-}
-
-#logo {
-    position: relative;
-    text-align: left;
-    padding: 15px 15px;
-    margin-left: 20px;
-    color: rgb(113,195,217)
-}
-
-main {
-    margin-top: 125px;
-}
-
 .banner-box {
     background-image: url("images/palmtrees-corey-agopian--unsplash.jpg");
     background-repeat: no-repeat;
@@ -40,61 +18,27 @@ main {
     width: 85%;
     border-radius: 12px;
     border: solid 3px orange;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 #profile-img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: 3px solid orange;
     border-radius: 50%;
 }
-#navcontainer {
-    position: absolute;
-    width: 10%;
-    height: 100%;
-    right: 0px;
-    bottom: 0px;
-    padding: 10px 15px;
-    margin-right: 20px;
-}
-#navcontainer-list {
-    padding: 0;
-    margin: 10;
-}
-#navcontainer li{
-    display: inline-block;
-    width: 90%;
-    padding: 2px 0;
-    margin-bottom: 10px;
-    text-align: right;
-}
-
-.grow {
-    transition: all .2s ease-in-ease-out;
-}
-.grow:hover {
-    transform: scale(1.1);
-}
 
 a:link {
-    color: orange;
+    color: #ffffff;
     text-decoration: underline;
     font-weight: bold;
 }
 
 a:visited {
-    color: orange;
+    color: ghostwhite;
     text-decoration: underline;
 }
-/* horizontal lines have been removed from home page
-hr {
-    height: 3px;
-    background-color: orange;
-    border: none;
-    margin-top: 20px;
-} */
 
 section {
     background-color: rgb(113,195,217);
@@ -113,11 +57,3 @@ footer {
     text-align: center;
     color: rgb(113,195,217);
 }
-/*I am having trouble with my top nav menu, see below.
-@media screen and (min-width: 730px) {
-    #navcontainer li {
-        display: inline-block;
-        width: 30%;
-        text-align: right;
-    }
-}*/
