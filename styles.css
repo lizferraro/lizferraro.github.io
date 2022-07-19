@@ -2,6 +2,7 @@ html {
     background-color: white;
     color: white;
     font-size: 1.25em; /* 20x on most screens*/
+    line-height: 1.5em;
 }
 
 body {
